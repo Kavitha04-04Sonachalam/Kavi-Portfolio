@@ -55,7 +55,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="w-full h-96 bg-gradient-to-br from-violet-100 to-blue-100 dark:from-dark-muted dark:to-slate-800 rounded-2xl flex items-center justify-center">
               <img 
-                src="/public/dev.jpg"
+                src="/dev.jpg"
                 alt="Profile" 
                 className="w-full h-full object-cover shadow-lg"
               />

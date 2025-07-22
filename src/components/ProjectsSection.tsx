@@ -7,7 +7,7 @@ const ProjectsSection = () => {
     {
       title: "Food Delivery App",
       description: "A user-friendly food delivery application allowing customers to browse restaurants, view menus, and place orders in real-time.",
-      image: "/public/foodimg.jpg",
+      image: "/foodimg.jpg",
       tech: ["Figma", "Canva"],
       github: "https://github.com/Kavitha04-04Sonachalam/UI-UX-DESIGN",
       demo: "https://www.figma.com/proto/ToAasVYhe0HZpZHHpcYAvR/food-app?node-id=0-1&t=1yUq6wWOY1jRf3uM-1"
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
     {
       title: "Python News AI Bot",
       description: "An AI-powered chatbot that summarizes and delivers the latest news headlines across categories like tech, sports, and world events. Uses NLP to understand queries and fetch relevant content.",
-      image: "/public/newsaiimg.jpg",
+      image: "/newsaiimg.jpg",
       tech: ["Python", "OpenAI","React.js","CSS"],
       github: "https://github.com/Kavitha04-04Sonachalam/News-AI-Frontend",
       demo: "http://news-ai-frontend-azvj.vercel.app"
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
     {
       title: "Crop Recommendation System — AI-Based",
       description: "This project is a machine learning-based recommendation system that suggests the most suitable crop to cultivate based on environmental and soil conditions. It aims to help farmers and agricultural planners make informed decisions, maximize productivity, and reduce crop failure.",
-      image: "/public/cropimg.jpg",
+      image: "/cropimg.jpg",
       tech: ["Python", "Numpy", "Matplotlib", "Google Colab"],
       github: "https://github.com/Kavitha04-04Sonachalam/smart-irrigation",
       demo: "https://colab.research.google.com/github/Kavitha04-04Sonachalam/smart-irrigation/blob/main/SMART_IRRIGATION_PREDICTION.ipynb"
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
     {
       title: "AI Resume & Career Guidance",
       description: "This project leverages Natural Language Processing (NLP) and machine learning to provide intelligent resume analysis and personalized career guidance. It evaluates resumes and recommends suitable career paths based on user skills and qualifications.",
-      image: "/public/aiimg.jpg",
+      image: "/aiimg.jpg",
       tech: ["Python", "Scikit-learn", "NLTK", "Google Colab"],
       github: "https://github.com/Kavitha04-04Sonachalam/AI-Resume/tree/main",
       demo: "https://www.kaggle.com/code/kavithasonachalam/ai-resume-carrer-guidance/edit "
