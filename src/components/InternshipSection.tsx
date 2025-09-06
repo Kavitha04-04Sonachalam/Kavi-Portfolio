@@ -7,6 +7,19 @@ const InternshipSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const experiences = [
+    
+    {
+      icon: <BrainCircuit className="h-8 w-8" />,
+      title: "IBM Frontend Development Internship",
+      description: "Completed a virtual  hands-on internship focused on frontend development using modern web technologies, building responsive and interactive user interfaces.",
+      image: "/IBM.jpg",
+      features: [
+        "Developed responsive web applications using React.js and Tailwind CSS",
+        "Implemented interactive UI components and reusable modules",
+        "Collaborated on real-world projects following Agile methodology",
+        "Learned best practices in frontend development and version control with Git"
+      ]
+    },
     {
       icon: <Code className="h-8 w-8" />,
       title: "CodeAlpha Frontend Internship",
@@ -19,18 +32,6 @@ const InternshipSection = () => {
         "Collaborated with a remote team"
       ]
     },
-    {
-      icon: <BrainCircuit className="h-8 w-8" />,
-      title: "Microsoft AI & Azure Internship",
-      description: "Completed a virtual internship focused on AI and Azure services, involving hands-on labs and real-world projects.",
-      image: "/mi.jpg",
-      features: [
-        "Explored Azure AI services",
-        "Built intelligent applications",
-        "Worked with cloud computing tools",
-        "Completed Microsoft Learn modules"
-      ]
-    }
   ];
 
   const nextSlide = () => {

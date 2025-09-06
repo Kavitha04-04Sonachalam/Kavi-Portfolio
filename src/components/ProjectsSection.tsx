@@ -8,25 +8,25 @@ const ProjectsSection = () => {
       title: "Movie App — Discover & Explore Movies",
       description: "A responsive React-based movie browsing application where users can search, explore, and view details of movies using an external API. Designed with an intuitive UI and seamless navigation, it provides a smooth experience for movie enthusiasts.",
       image: "/movie.jpg",
-      tech: ["React.js", "Tailwind Css","HTML", "JS"],
+      tech: ["React.js", "Tailwind Css","HTML5", "JS"],
       github: "https://github.com/Kavitha04-04Sonachalam/React-App",
       demo: "https://react-app-phi-silk.vercel.app"
     },
     {
-      title: "Python News AI Bot",
-      description: "An AI-powered chatbot that summarizes and delivers the latest news headlines across categories like tech, sports, and world events. Uses NLP to understand queries and fetch relevant content.",
-      image: "/newsaiimg.jpg",
-      tech: ["Python", "OpenAI","React.js","CSS"],
-      github: "https://github.com/Kavitha04-04Sonachalam/News-AI-Frontend",
-      demo: "http://news-ai-frontend-azvj.vercel.app"
+      title: "Hostel Management System — Efficient & Smart",
+      description: "A comprehensive hostel management system built with React and Tailwind CSS. Administrators can manage tenants, track payments, monitor occupancy, and generate detailed reports & analytics. The system is designed with a clean, intuitive UI for seamless navigation and user experience.",
+      image: "/h.jpg",
+      tech: ["React.js", "JavaScript","HTML5","Tailwind CSS"],
+      github: "https://github.com/Kavitha04-04Sonachalam/Hostel-Management",
+      demo: "http://hostel-management-red-zeta.vercel.app"
     },
     {
-      title: "Crop Recommendation System — AI-Based",
-      description: "This project is a machine learning-based recommendation system that suggests the most suitable crop to cultivate based on environmental and soil conditions. It aims to help farmers and agricultural planners make informed decisions, maximize productivity, and reduce crop failure.",
-      image: "/cropimg.jpg",
-      tech: ["Python", "Numpy", "Matplotlib", "Google Colab"],
-      github: "https://github.com/Kavitha04-04Sonachalam/smart-irrigation",
-      demo: "https://colab.research.google.com/github/Kavitha04-04Sonachalam/smart-irrigation/blob/main/SMART_IRRIGATION_PREDICTION.ipynb"
+      title: "Nike Shoe Landing Page — Modern E-Commerce UI",
+      description: "A responsive and visually appealing landing page for Nike shoes, designed to showcase products, promotions, and features. Built with React and Tailwind CSS, the page emphasizes modern UI/UX design principles and smooth interactions. Perfect for demonstrating front-end design and e-commerce interface skills.",
+      image: "/nike shoe.jpeg",
+      tech: ["React.js","JavaScript","HTML5","Tailwind Css"],
+      github: "https://github.com/Kavitha04-04Sonachalam/tailwind-prjct",
+      demo: "http://tailwind-prjct.vercel.app/"
     },
     {
       title: "AI Resume & Career Guidance",
