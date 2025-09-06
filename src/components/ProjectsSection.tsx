@@ -5,12 +5,12 @@ import { Card, CardContent } from '@/components/ui/card';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Food Delivery App",
-      description: "A user-friendly food delivery application allowing customers to browse restaurants, view menus, and place orders in real-time.",
-      image: "/foodimg.jpg",
-      tech: ["Figma", "Canva"],
-      github: "https://github.com/Kavitha04-04Sonachalam/UI-UX-DESIGN",
-      demo: "https://www.figma.com/proto/ToAasVYhe0HZpZHHpcYAvR/food-app?node-id=0-1&t=1yUq6wWOY1jRf3uM-1"
+      title: "Movie App — Discover & Explore Movies",
+      description: "A responsive React-based movie browsing application where users can search, explore, and view details of movies using an external API. Designed with an intuitive UI and seamless navigation, it provides a smooth experience for movie enthusiasts.",
+      image: "/movie.jpg",
+      tech: ["React.js", "Tailwind Css","HTML", "JS"],
+      github: "https://github.com/Kavitha04-04Sonachalam/React-App",
+      demo: "react-app-phi-silk.vercel.app"
     },
     {
       title: "Python News AI Bot",
