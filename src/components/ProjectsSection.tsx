@@ -10,7 +10,7 @@ const ProjectsSection = () => {
       image: "/movie.jpg",
       tech: ["React.js", "Tailwind Css","HTML", "JS"],
       github: "https://github.com/Kavitha04-04Sonachalam/React-App",
-      demo: "react-app-phi-silk.vercel.app"
+      demo: "https://react-app-phi-silk.vercel.app"
     },
     {
       title: "Python News AI Bot",
