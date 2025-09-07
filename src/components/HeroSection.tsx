@@ -97,7 +97,7 @@ const HeroSection = ({ onViewWork }: HeroSectionProps) => {
               View My Work
               <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <a href="/Resume KavithaS.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Resume Kavitha S 2025.pdf" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 md:px-8 py-4 md:py-6 text-base md:text-lg rounded-full transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"

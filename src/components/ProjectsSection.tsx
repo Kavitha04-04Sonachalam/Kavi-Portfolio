@@ -31,7 +31,7 @@ const ProjectsSection = () => {
     {
       title: "AI Resume & Career Guidance",
       description: "This project leverages Natural Language Processing (NLP) and machine learning to provide intelligent resume analysis and personalized career guidance. It evaluates resumes and recommends suitable career paths based on user skills and qualifications.",
-      image: "/aiimg.jpg",
+      image: "/ai.jpg",
       tech: ["Python", "Scikit-learn", "NLTK", "Google Colab"],
       github: "https://github.com/Kavitha04-04Sonachalam/AI-Resume/tree/main",
       demo: "https://www.kaggle.com/code/kavithasonachalam/ai-resume-carrer-guidance/edit "
