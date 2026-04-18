@@ -17,10 +17,10 @@ const AboutSection = () => {
           {/* Text Content */}
           <div className="space-y-6">
             <p className="text-lg text-slate-600 dark:text-dark-muted-foreground leading-relaxed">
-              Hi, I’m Kavitha — a final-year Computer Science student with a strong passion for frontend development and UI/UX design. I enjoy turning creative ideas into user-friendly digital experiences using tools like React, Tailwind CSS, and Figma. I’m constantly learning and exploring new technologies to sharpen my skills.
+              Hi, I’m Kavitha — a passionate Python Full Stack and AI Developer. I specialize in building scalable web applications and intelligent systems using technologies like Python, FastAPI/Django, React, and modern machine learning frameworks. I enjoy transforming ideas into efficient, real-world solutions and continuously explore new tools to sharpen my skills.
             </p>
             <p className="text-lg text-slate-600 dark:text-dark-muted-foreground leading-relaxed">
-              My goal is to build clean, accessible, and responsive web interfaces while collaborating on real-world projects. I'm excited to grow in the tech field and contribute to innovative digital solutions.
+              My goal is to develop high-performance full-stack applications and impactful AI solutions while collaborating on meaningful, real-world projects.
             </p>
 
             {/* Highlights */}

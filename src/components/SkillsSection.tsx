@@ -1,4 +1,4 @@
-import { Code, Palette, Layers, FileCode, Figma } from 'lucide-react';
+import { Code, Palette, Layers, FileCode, Figma, Cpu, Database, Brain } from 'lucide-react';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 
@@ -8,40 +8,52 @@ const SkillsSection = () => {
 
   const skills = [
     {
-      name: "HTML",
-      level: 95,
-      icon: <Code className="h-6 w-6" />,
-      color: "from-orange-500 to-red-500"
-    },
-    {
-      name: "CSS",
+      name: "Python",
       level: 90,
-      icon: <Palette className="h-6 w-6" />,
-      color: "from-blue-500 to-cyan-500"
-    },
-    {
-      name: "Tailwind CSS",
-      level: 88,
-      icon: <Layers className="h-6 w-6" />,
-      color: "from-teal-500 to-blue-500"
-    },
-    {
-      name: "JS",
-      level: 85,
       icon: <FileCode className="h-6 w-6" />,
-      color: "from-yellow-500 to-blue-500"
+      color: "from-blue-600 to-yellow-500"
+    },
+    {
+      name: "FastAPI / Django",
+      level: 85,
+      icon: <Cpu className="h-6 w-6" />,
+      color: "from-green-500 to-emerald-700"
     },
     {
       name: "React",
       level: 85,
-      icon: <Code className="h-6 w-6" />,
-      color: "from-blue-400 to-blue-600"
+      icon: <Layers className="h-6 w-6" />,
+      color: "from-cyan-400 to-blue-600"
     },
     {
-      name: "Figma",
-      level: 92,
-      icon: <Figma className="h-6 w-6" />,
-      color: "from-purple-500 to-pink-500"
+      name: "HTML & CSS",
+      level: 90,
+      icon: <Code className="h-6 w-6" />,
+      color: "from-orange-500 to-pink-500"
+    },
+    {
+      name: "JavaScript",
+      level: 82,
+      icon: <Code className="h-6 w-6" />,
+      color: "from-yellow-400 to-yellow-600"
+    },
+    {
+      name: "Tailwind CSS",
+      level: 80,
+      icon: <Palette className="h-6 w-6" />,
+      color: "from-cyan-500 to-blue-500"
+    },
+    {
+      name: "PostgreSQL",
+      level: 78,
+      icon: <Database className="h-6 w-6" />,
+      color: "from-indigo-600 to-blue-700"
+    },
+    {
+      name: "SQL",
+      level: 80,
+      icon: <Database className="h-6 w-6" />,
+      color: "from-slate-600 to-slate-800"
     }
   ];
 

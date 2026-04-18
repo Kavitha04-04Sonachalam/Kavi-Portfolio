@@ -10,26 +10,33 @@ const InternshipSection = () => {
     
     {
       icon: <BrainCircuit className="h-8 w-8" />,
-      title: "IBM Frontend Development Internship",
-      description: "Completed a virtual  hands-on internship focused on frontend development using modern web technologies, building responsive and interactive user interfaces.",
-      image: "/IBM.jpg",
+      title: "Python Full Stack Developer Intern",
+      description: "Worked as a Python Full Stack Developer intern at Indinexz, contributing to the development of a School Parent Portal to enhance communication and management between schools and parents.",
+      image: "/mmmmm.jpg",
       features: [
-        "Developed responsive web applications using React.js and Tailwind CSS",
-        "Implemented interactive UI components and reusable modules",
-        "Collaborated on real-world projects following Agile methodology",
-        "Learned best practices in frontend development and version control with Git"
+        "Developed and maintained features for the School Parent Portal",
+        "Built responsive and user-friendly interfaces using React",
+        "Designed and implemented backend APIs using Python (FastAPI/Django)",
+        "Integrated frontend and backend for real-time data updates",
+        "Implemented modules for attendance, marks, and fee management",
+        "Worked with databases to manage student and school data efficiently",
+        "Used Git and GitHub for version control and collaboration",
+        "Collaborated with the team to deliver scalable and reliable solutions"
       ]
     },
     {
       icon: <Code className="h-8 w-8" />,
-      title: "CodeAlpha Frontend Internship",
-      description: "Worked as a frontend development intern, where I designed and developed responsive web interfaces using HTML, CSS, JavaScript, and React.",
-      image: "/fei.jpg",
+      title: "Python Full Stack Developer Intern",
+      description: "Worked as a Python Full Stack Developer intern at Vyomanexgen, where I designed and developed scalable web applications, including a POS (Point of Sale) system, using modern technologies.",
+      image: "/vyomanexgen.jpg",
       features: [
-        "Built responsive designs with React",
-        "Developed reusable UI components",
-        "Gained experience with Git and GitHub",
-        "Collaborated with a remote team"
+        "Built and developed a POS application with end-to-end functionality",
+        "Designed responsive and user-friendly interfaces using React",
+        "Developed backend APIs using Python (FastAPI/Django)",
+        "Integrated frontend and backend for seamless data flow",
+        "Worked with databases to manage transactions and records",
+        "Used Git and GitHub for version control",
+        "Collaborated with the team to deliver real-world project features"
       ]
     },
   ];
@@ -54,7 +61,7 @@ const InternshipSection = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-violet-600 to-blue-600 mx-auto rounded-full mb-4"></div>
           <p className="text-lg text-slate-600 dark:text-dark-muted-foreground max-w-2xl mx-auto">
-            Real-world projects where I applied UI/UX design principles to create meaningful digital experiences.
+            Real-world projects where I developed full-stack solutions and AI-driven applications.
           </p>
         </div>
 
@@ -62,13 +69,13 @@ const InternshipSection = () => {
           <Card className="overflow-hidden bg-gradient-to-br from-slate-50 to-blue-50 dark:from-dark-muted dark:to-dark-muted border-0 shadow-lg transition-colors duration-300">
             <CardContent className="p-0">
               <div className="grid md:grid-cols-2 gap-0">
-                <div className="relative">
+                <div className="relative bg-white dark:bg-slate-900/50 flex items-center justify-center overflow-hidden h-64 md:h-[450px]">
                   <img
                     src={experiences[currentSlide].image}
                     alt={experiences[currentSlide].title}
-                    className="w-full h-64 md:h-96 object-cover"
+                    className="w-[85%] h-[85%] object-contain transition-all duration-500 hover:scale-105 rounded-2xl drop-shadow-2xl"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-violet-600/20 to-blue-600/20"></div>
+                  <div className="absolute inset-0 bg-gradient-to-tr from-violet-600/5 to-transparent pointer-events-none"></div>
                 </div>
 
                 <div className="p-8 md:p-12 flex flex-col justify-center">

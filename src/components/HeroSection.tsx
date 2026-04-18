@@ -9,7 +9,7 @@ interface HeroSectionProps {
 const HeroSection = ({ onViewWork }: HeroSectionProps) => {
   const [currentRole, setCurrentRole] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
-  const roles = ['Front-End Developer', 'UI/UX Designer'];
+  const roles = ['Python Fullstack Developer', 'AI Developer'];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -44,7 +44,7 @@ const HeroSection = ({ onViewWork }: HeroSectionProps) => {
             <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-2 border-4 border-background">
               <img
                 src="/kaviFinalPhoto.jpg"
-                alt="Kavitha - Front-End Developer & UI/UX Designer"
+                alt="Kavitha - Python Fullstack Developer & AI Developer"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-accent/10"></div>
@@ -84,8 +84,7 @@ const HeroSection = ({ onViewWork }: HeroSectionProps) => {
           </div>
 
           <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-8 md:mb-12 max-w-2xl mx-auto leading-relaxed">
-            Crafting beautiful, intuitive digital experiences through clean code and thoughtful design.
-            Let’s bring your ideas to life!
+            Building scalable, user-focused web applications with Python—where clean code meets seamless user experience.
           </p>
 
           {/* Buttons */}
@@ -97,7 +96,7 @@ const HeroSection = ({ onViewWork }: HeroSectionProps) => {
               View My Work
               <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <a href="/Resume Kavitha S 2025.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Kavitha S Resume 2026.pdf" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 md:px-8 py-4 md:py-6 text-base md:text-lg rounded-full transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"

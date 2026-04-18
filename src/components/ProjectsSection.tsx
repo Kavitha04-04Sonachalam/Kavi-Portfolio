@@ -47,7 +47,7 @@ const ProjectsSection = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-violet-600 to-blue-600 mx-auto rounded-full mb-4"></div>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills in front-end development and UI/UX design.
+            Here are some of my recent projects that showcase my skills in Python Fullstack development and AI development.
           </p>
         </div>
 
