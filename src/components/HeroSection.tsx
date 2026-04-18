@@ -41,13 +41,13 @@ const HeroSection = ({ onViewWork }: HeroSectionProps) => {
             <div className="absolute -inset-4 rounded-full bg-gradient-to-r from-primary/30 to-accent/30 animate-pulse"></div>
 
             {/* Main photo container */}
-            <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-2 border-4 border-background">
+            <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-2 border-4 border-white dark:border-slate-800 bg-slate-100 dark:bg-slate-900">
               <img
-                src="/kaviFinalPhoto.jpg"
-                alt="Kavitha - Python Fullstack Developer & AI Developer"
+                src="/me.jpeg"
+                alt="Kavitha - Python Fullstack Developer"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-accent/10"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent pointer-events-none"></div>
 
               {/* Floating elements around photo */}
               <div className="absolute -top-4 -right-4 md:-top-6 md:-right-6 w-8 h-8 md:w-12 md:h-12 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center text-white font-bold animate-bounce delay-300 text-xs md:text-base">
